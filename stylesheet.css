@@ -1,0 +1,76 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background-color:#D8DA3D;
+}
+.list{
+	float:left;
+	width:8%;
+	height:100%;
+	padding=10px;
+	margin-top:20px;
+	margin-left:10px;
+	
+}
+
+div ul li{
+	display:block;
+	color: #80007E;
+	background-color:white;
+	margin-bottom:5px;
+	width:150%;
+	padding:3px;
+}
+.hp{
+	color:#80007E;
+	margin-left:250px;
+	height:30%;
+}
+.bottom{
+	border-top: 1px dotted black;
+	margin-top:40px;
+	border-color:#80007E;
+}
+
+#one{
+	margin-top:20px;
+	border-style: dashed;
+	border-color:black;
+	padding:5px;
+	width:80%;
+}
+#two{
+	margin-top:20px;
+	border-style: dashed;
+	border-color:#FF7F00;
+	padding:5px;
+	text-align:right;
+	width:80%;
+}
+#three{
+	margin-top:20px;
+	border-style: dotted;
+	border-color:#0000FF;
+	padding:5px;
+	text-align:center;
+	width:80%;
+}
+
+.date{
+	margin-top:30px;
+}
+
+ul li{
+	
+}
+ul li:nth-child(2n+1)
+{
+	border-right: 15px solid #FF7F00;
+}
+ul li:nth-child(2n+2)
+{
+	border-right: 15px solid #0000FF;
+}
+
